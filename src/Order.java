@@ -9,12 +9,10 @@ import org.testng.annotations.Test;
 	public class Order {
 		
 		WebDriver driver;
-		static {
-			System.setProperty("webdriver.chrome.driver", "C:/Users/sruthy.sl/Downloads/chromedriver_win32/chromedriver.exe");
-			
-		}
+		
 		@BeforeMethod
 		public void initBrowser() {
+			System.setProperty("webdriver.chrome.driver", "C:/Users/sruthy.sl/Downloads/chromedriver_win32/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get("https://qualicoach.org/mwapp/index.html");
 		}

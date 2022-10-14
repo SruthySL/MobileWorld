@@ -7,12 +7,14 @@ import org.testng.annotations.Test;
 public class SignIn {
 	
 	WebDriver driver;
-	static {
-		System.setProperty("webdriver.chrome.driver", "C:/Users/sruthy.sl/Downloads/chromedriver_win32/chromedriver.exe");
-		
-	}
+//	static {
+//		System.setProperty("webdriver.chrome.driver", "C:/Users/sruthy.sl/Downloads/chromedriver_win32/chromedriver.exe");
+//		
+//	}
 	@BeforeMethod
 	public void initBrowser() {
+		System.setProperty("webdriver.chrome.driver", "C:/Users/sruthy.sl/Downloads/chromedriver_win32/chromedriver.exe");
+
 		driver = new ChromeDriver();
 		driver.get("https://qualicoach.org/mwapp/index.html");
 	}

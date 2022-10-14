@@ -3,49 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Order">
+      <class name="SignIn">
         <methods>
-          <include name="case28"/>
-          <include name="case27"/>
-          <include name="case24"/>
-          <include name="case29"/>
-          <include name="case26"/>
-          <include name="case23"/>
-          <include name="case31"/>
-          <include name="case25"/>
-          <include name="case22"/>
-          <include name="case21"/>
+          <include name="signIn"/>
+          <include name="Signinvalid"/>
+          <include name="Signinpominavalid"/>
+          <include name="Signinusermoretwentyinavalid"/>
+          <include name="Signinemptyvalid"/>
+          <include name="Signinpassspecialinavalid"/>
           <include name="initBrowser"/>
-          <include name="case1"/>
-          <include name="case3"/>
-          <include name="case0"/>
-          <include name="case5"/>
-          <include name="case17"/>
-          <include name="case2"/>
-          <include name="case7"/>
-          <include name="case19"/>
-          <include name="case4"/>
-          <include name="case16"/>
-          <include name="case9"/>
-          <include name="case13"/>
-          <include name="case35"/>
-          <include name="case6"/>
-          <include name="case18"/>
-          <include name="case15"/>
-          <include name="case37"/>
-          <include name="case8"/>
-          <include name="case12"/>
-          <include name="case34"/>
-          <include name="case20"/>
-          <include name="case14"/>
-          <include name="case36"/>
-          <include name="case11"/>
-          <include name="case33"/>
-          <include name="case30"/>
-          <include name="case10"/>
-          <include name="case32"/>
         </methods>
-      </class> <!-- Order -->
+      </class> <!-- SignIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
